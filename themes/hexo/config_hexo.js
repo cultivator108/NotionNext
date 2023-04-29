@@ -1,14 +1,14 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['在当今时代 要学到真正的佛法 得到真实的成就', '恭闻南无羌佛的如来正法是获得正知正见的唯一来源'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['在当今时代 要学到真正的佛法','在当今时代 要得到真实的成就' '必须恭闻南无羌佛如来正法!'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
 
   // 菜单配置
   MENU_INDEX: true, // 显示首页
-  MENU_CATEGORY: false, // 显示分类
-  MENU_TAG: true, // 显示标签
+  MENU_CATEGORY: true, // 显示分类
+  MENU_TAG: false, // 显示标签
   MENU_ARCHIVE: false, // 显示归档
   MENU_SEARCH: true, // 显示搜索
 
@@ -27,7 +27,7 @@ const CONFIG_HEXO = {
   WIDGET_LATEST_POSTS: false, // 显示最新文章卡
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
-  WIDGET_TO_COMMENT: true, // 跳到评论区
+  WIDGET_TO_COMMENT: false, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
   WIDGET_TOC: true // 移动端悬浮目录
 }
