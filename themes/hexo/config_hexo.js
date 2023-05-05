@@ -15,8 +15,8 @@ const CONFIG_HEXO = {
   POST_LIST_COVER: false, // 列表显示文章封面
   POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
-  POST_LIST_COVER_DEFAULT: false, // 封面为空时用站点背景做默认封面
-  POST_LIST_SUMMARY: true, // 文章摘要
+  POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
+  POST_LIST_SUMMARY: false, // 文章摘要
   POST_LIST_PREVIEW: false, // 读取文章预览
   POST_LIST_IMG_CROSSOVER: false, // 博客列表图片左右交错
 
@@ -29,6 +29,6 @@ const CONFIG_HEXO = {
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: false, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
-  WIDGET_TOC: true // 移动端悬浮目录
+  WIDGET_TOC: false// 移动端悬浮目录
 }
 export default CONFIG_HEXO
