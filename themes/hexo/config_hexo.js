@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['在当今时代 要学到真正的佛法','在当今时代 要得到真实的成就','必须恭闻南无羌佛如来正法'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: [''], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不动； false则随鼠标滚动
